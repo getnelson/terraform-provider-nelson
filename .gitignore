@@ -10,3 +10,15 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# Ignore folders created from dep
+vendor/*
+_vendor*
+
+# Ignore output binaries
+terraform-provider-nelson
+
+# Ignore any terraform directories and files
+examples/*/.terraform/*
+*.tfstate*
+*crash.log
