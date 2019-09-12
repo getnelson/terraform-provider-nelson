@@ -17,15 +17,13 @@ type CreateSessionRequest struct {
 }
 
 func (n *Nelson) Login(githubToken string) error {
-
-	// If not logged in, log in and set the various session tokens and keys in the reciever.
-	currentEpoch := time.Now()
-	// Should we read the config or use whats already in n.NelsonConfig???
-	if n.NelsonConfig == DefaultConfig {
+	if n.NelsonConfig == DefaultConfig || n.NelsonConfig == nil {
 		if err := n.readConfig(); err != nil {
 			return multierror.Prefix(err, "reading config: ")
 		}
 	}
+
+	currentEpoch := time.Now()
 	expireTime := time.Unix(0, n.NelsonConfig.Session.ExpiresAt)
 	if currentEpoch.After(expireTime) {
 		if err := n.login(githubToken); err != nil {

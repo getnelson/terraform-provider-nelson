@@ -103,7 +103,7 @@ func providerConfigure(d *schema.ResourceData) (interface{}, error) {
 	nelsonClient, err := nelson.CreateNelson(
 		clientConfig.Address,
 		clientConfig.APIVersion,
-		"/tmp/nelson.yml",
+		clientConfig.Path,
 	)
 	if err != nil {
 		return nil, multierror.Prefix(err, "couldn't create config")
