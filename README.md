@@ -1,5 +1,7 @@
 # Terraform Nelson provider
 
+[![Build Status](https://travis-ci.org/getnelson/terraform-provider-nelson.svg?branch=master)](https://travis-ci.org/getnelson/terraform-provider-nelson)
+
 This project is a [Terraform Provider](https://www.terraform.io/docs/plugins/provider.html) for an open source project called [Nelson](https://getnelson.io/)
 
 ## Installation
