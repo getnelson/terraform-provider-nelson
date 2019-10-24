@@ -5,7 +5,7 @@ import (
 	b64 "encoding/base64"
 	"fmt"
 
-	"github.com/drewgonzales360/terraform-provider-nelson/nelson"
+	"github.com/getnelson/terraform-provider-nelson/nelson"
 	"github.com/hashicorp/terraform/helper/schema"
 )
 

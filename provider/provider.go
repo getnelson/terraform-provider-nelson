@@ -3,8 +3,7 @@ package provider
 import (
 	"fmt"
 
-	// Change to getnelson when opening PR
-	"github.com/drewgonzales360/terraform-provider-nelson/nelson"
+	"github.com/getnelson/terraform-provider-nelson/nelson"
 
 	"github.com/hashicorp/go-multierror"
 	"github.com/hashicorp/terraform/helper/schema"
