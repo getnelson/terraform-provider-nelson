@@ -2,7 +2,6 @@ package provider
 
 import (
 	"fmt"
-
 	"github.com/getnelson/terraform-provider-nelson/nelson"
 
 	"github.com/hashicorp/go-multierror"
