@@ -117,7 +117,7 @@ func resourceBlueprintUpdate(d *schema.ResourceData, meta interface{}) error {
 }
 
 func resourceBlueprintDelete(d *schema.ResourceData, meta interface{}) error {
-	return fmt.Errorf("blueprints can not be deleted")
+	return nil
 }
 
 func resourceBlueprintImport(d *schema.ResourceData, meta interface{}) ([]*schema.ResourceData, error) {
