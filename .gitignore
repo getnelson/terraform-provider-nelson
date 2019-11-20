@@ -22,3 +22,7 @@ terraform-provider-nelson
 examples/*/.terraform/*
 *.tfstate*
 *crash.log
+
+# Ignore build/ide files
+bin/
+.idea/
