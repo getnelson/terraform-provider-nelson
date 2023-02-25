@@ -33,10 +33,8 @@ require (
 	github.com/posener/complete v1.2.1 // indirect
 	github.com/ulikunitz/xz v0.5.6 // indirect
 	github.com/zclconf/go-cty v0.0.0-20190512064109-3eb142078787 // indirect
-	golang.org/x/crypto v0.0.0-20190510104115-cbcb75029529 // indirect
-	golang.org/x/net v0.0.0-20190509222800-a4d6f7feada5 // indirect
+	golang.org/x/crypto v0.1.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20190402181905-9f3314589c9a // indirect
-	golang.org/x/sys v0.0.0-20190509141414-a5b02f93d862 // indirect
 	google.golang.org/api v0.5.0 // indirect
 	google.golang.org/appengine v1.5.0 // indirect
 	google.golang.org/genproto v0.0.0-20190508193815-b515fa19cec8 // indirect
